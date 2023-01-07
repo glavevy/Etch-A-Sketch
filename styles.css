@@ -3,37 +3,36 @@
   margin: 0;
 }
 
-#main {
+#container {
   display: flex;
-  /*width: 960px;
-  height: 960px;*/
   justify-content: center;
   align-items: center;
 }
 
+#main {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
+
 .row {
-  /*width: 40px;*/
-    /*margin: 0px auto;
-  /*display: block;*/   
+  display: flex;
 }
 
 .column {
   flex: 1;
   border: 1px solid black;
-  /*height: 2rem;*/
-  padding: 1rem;    
-
 }
 
-#header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-h1, button{
-    margin: 32px;
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-
-
+h1,
+button {
+  margin: 32px;
+  padding: 8px;
+}
