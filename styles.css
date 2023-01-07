@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  background-color: #27445C;
 }
 
 #container {
@@ -12,7 +13,7 @@
 #main {
   width: 500px;
   height: 500px;
-  border: 1px solid black;
+  border: 1px solid #03A89E;
 }
 
 .row {
@@ -21,7 +22,7 @@
 
 .column {
   flex: 1;
-  border: 1px solid black;
+  border: 1px solid #03A89E;
 }
 
 #header {
@@ -29,10 +30,27 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: #FFD700;
 }
 
 h1,
 button {
   margin: 32px;
-  padding: 8px;
+  color: #FFD700;
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+button {
+    background-color: #483D8B;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
 }
